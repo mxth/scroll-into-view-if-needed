@@ -4,7 +4,7 @@ export interface ScrollIntoViewIfNeededOptions {
   easing?: 'ease' | 'easeIn' | 'easeOut' | 'easeInOut' | 'linear';
 }
 
-export default function(
+export default function scrollIntoViewIfNeeded(
   node: Element,
   centerIfNeeded: boolean,
   options?: ScrollIntoViewIfNeededOptions,
